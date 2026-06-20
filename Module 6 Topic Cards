@@ -1,0 +1,214 @@
+
+
+<div id="piq-home-topic-cards">
+  <p>Themen werden geladen...</p>
+</div>
+
+<style>
+#piq-home-topic-cards {
+  font-family: var(--piq-font-family, Inter, Arial, sans-serif);
+  color: var(--piq-text-color, #1F2937);
+  max-width: var(--piq-max-content-width, 1400px);
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.piq-home-topic-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.piq-home-topic-header h2 {
+  font-size: var(--piq-h2-font-size, 40px);
+  line-height: 1.15;
+  margin: 0 0 12px;
+  color: var(--piq-heading-color, var(--piq-text-color, #1F2937));
+}
+
+.piq-home-topic-header p {
+  font-size: var(--piq-body-font-size, 18px);
+  color: var(--piq-text-muted-color, #6B7280);
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.piq-home-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.piq-home-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--piq-surface-color, #FFFFFF);
+  border: 1px solid var(--piq-border-color, #DDE3E8);
+  border-radius: var(--piq-card-radius, 12px);
+  padding: var(--piq-card-padding, 28px);
+  min-height: 220px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: var(--piq-card-shadow, 0 2px 8px rgba(0,0,0,0.06));
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.piq-home-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+}
+
+.piq-home-card-kicker {
+  font-size: var(--piq-small-font-size, 13px);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--piq-secondary-color, #2C718A);
+  margin-bottom: 12px;
+}
+
+.piq-home-card h3 {
+  font-size: var(--piq-h3-font-size, 24px);
+  line-height: 1.25;
+  margin: 0 0 12px;
+  color: var(--piq-heading-color, var(--piq-text-color, #1F2937));
+}
+
+.piq-home-card p {
+  font-size: 16px;
+  line-height: var(--piq-line-height, 1.6);
+  color: var(--piq-text-muted-color, #6B7280);
+  margin: 0;
+}
+
+.piq-home-card-cta {
+  margin-top: 18px;
+  font-weight: 700;
+  color: var(--piq-primary-color, #045D63);
+}
+
+@media (max-width: 900px) {
+  .piq-home-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .piq-home-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .piq-home-topic-header h2 {
+    font-size: 32px;
+  }
+}
+</style>
+
+<script>
+const PIQ_HOME_CONFIG = {
+  API_URL: "https://script.google.com/macros/s/AKfycbyeCp9WTR09h2M9GDhkI2EXQw4yqrc_wKunOpDxW8l9WFS6UbYgaFJxXWFOxzjlUeE/exec",
+  CARD_LIMIT: 6
+};
+
+function piqApplySettings(settings) {
+  if (!settings) return;
+
+  const root = document.documentElement;
+
+  const map = {
+    primary_color: "--piq-primary-color",
+    primary_hover_color: "--piq-primary-hover-color",
+    secondary_color: "--piq-secondary-color",
+    background_color: "--piq-background-color",
+    surface_color: "--piq-surface-color",
+    text_color: "--piq-text-color",
+    text_muted_color: "--piq-text-muted-color",
+    heading_color: "--piq-heading-color",
+    border_color: "--piq-border-color",
+    card_radius: "--piq-card-radius",
+    card_padding: "--piq-card-padding",
+    card_shadow: "--piq-card-shadow",
+    font_family: "--piq-font-family",
+    h2_font_size: "--piq-h2-font-size",
+    h3_font_size: "--piq-h3-font-size",
+    body_font_size: "--piq-body-font-size",
+    small_font_size: "--piq-small-font-size",
+    line_height: "--piq-line-height",
+    max_content_width: "--piq-max-content-width"
+  };
+
+  Object.keys(map).forEach(key => {
+    if (settings[key] !== undefined && settings[key] !== "") {
+      root.style.setProperty(map[key], settings[key]);
+    }
+  });
+}
+
+function piqEscapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function renderHomeTopicCards(data) {
+  piqApplySettings(data.settings || {});
+
+  const container = document.getElementById("piq-home-topic-cards");
+
+  const pages = (data.pages || [])
+    .slice()
+    .sort((a, b) => {
+      const aOrder = Number(a.page?.display_order || 999);
+      const bOrder = Number(b.page?.display_order || 999);
+      return aOrder - bOrder;
+    })
+    .slice(0, PIQ_HOME_CONFIG.CARD_LIMIT);
+
+  if (!pages.length) {
+    container.innerHTML = "<p>Aktuell wurden keine Themen gefunden.</p>";
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="piq-home-topic-header">
+      <h2>Aktuelle Themen und Umfragen</h2>
+      <p>
+        Gib deine Meinung zu zentralen politischen Fragen ab –
+        unabhängig, themenbasiert und ohne Parteibindung.
+      </p>
+    </div>
+
+    <div class="piq-home-card-grid">
+      ${pages.map(item => {
+        const page = item.page || {};
+
+        return `
+          <a class="piq-home-card" href="/${piqEscapeHtml(item.slug || "")}/">
+            <div class="piq-home-card-kicker">Umfrage</div>
+            <h3>${piqEscapeHtml(page.display_name || item.topic_id || "")}</h3>
+            <p>${piqEscapeHtml(page.short_description || "")}</p>
+            <div class="piq-home-card-cta">Meinung abgeben →</div>
+          </a>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+fetch(PIQ_HOME_CONFIG.API_URL)
+  .then(response => {
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return response.json();
+  })
+  .then(renderHomeTopicCards)
+  .catch(error => {
+    console.error("PIQ HOME CARDS ERROR:", error);
+    document.getElementById("piq-home-topic-cards").innerHTML =
+      "<p>Die Themen konnten gerade nicht geladen werden.</p>";
+  });
+</script>
