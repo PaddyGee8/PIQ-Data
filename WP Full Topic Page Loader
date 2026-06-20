@@ -240,6 +240,25 @@
   font-weight: 700;
 }
 
+
+/* ---------- FAQ ---------- */
+.piq-faq-card {
+  padding: var(--piq-faq-card-padding, 20px 24px);
+  margin-bottom: var(--piq-faq-spacing, 12px);
+}
+
+.piq-faq-question {
+  font-size: var(--piq-faq-question-font-size, 22px);
+  line-height: 1.3;
+  margin: 0 0 10px;
+}
+
+.piq-faq-answer {
+  font-size: var(--piq-faq-answer-font-size, 16px);
+  line-height: 1.6;
+  margin: 0;
+}
+
 /* ---------- Mobile ---------- */
 @media (max-width: 700px) {
   .piq-section { padding: 48px 20px; }
@@ -344,7 +363,12 @@ function applySettings(settings) {
     hero_headline_max_width: "--piq-hero-headline-max-width",
     hero_background_position: "--piq-hero-background-position",
     hero_kicker_font_size: "--piq-hero-kicker-font-size",
-    hero_kicker_transform: "--piq-hero-kicker-transform"
+    hero_kicker_transform: "--piq-hero-kicker-transform",
+
+  faq_card_padding: "--piq-faq-card-padding",
+  faq_question_font_size: "--piq-faq-question-font-size",
+  faq_answer_font_size: "--piq-faq-answer-font-size",
+  faq_spacing: "--piq-faq-spacing",
   };
 
   Object.keys(map).forEach(key => {
@@ -551,10 +575,15 @@ function renderFaqs(faqs) {
     <section class="piq-section">
       <h2>Häufige Fragen</h2>
       ${faqs.map(faq => `
-        <div class="piq-card">
-          <h3>${escapeHtml(faq.question || "")}</h3>
-          <p>${escapeHtml(faq.answer || "")}</p>
-        </div>
+        <div class="piq-card piq-faq-card">
+  <h3 class="piq-faq-question">
+    ${escapeHtml(faq.question || "")}
+  </h3>
+
+  <p class="piq-faq-answer">
+    ${escapeHtml(faq.answer || "")}
+  </p>
+</div>
       `).join("")}
     </section>
   `;
