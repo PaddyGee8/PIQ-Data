@@ -1,0 +1,215 @@
+
+<div id="piq-topic-overview">
+  <p>Themen werden geladen...</p>
+</div>
+
+<style>
+#piq-topic-overview {
+  font-family: var(--piq-font-family, Inter, Arial, sans-serif);
+  color: var(--piq-text-color, #1F2937);
+  max-width: var(--piq-max-content-width, 1400px);
+  margin: 0 auto;
+  padding: 56px 24px;
+}
+
+.piq-topic-overview-header {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.piq-topic-overview-header h1 {
+  font-size: var(--piq-h1-font-size, 52px);
+  line-height: 1.1;
+  margin: 0 0 14px;
+  color: var(--piq-heading-color, var(--piq-text-color, #1F2937));
+}
+
+.piq-topic-overview-header p {
+  font-size: var(--piq-body-font-size, 18px);
+  color: var(--piq-text-muted-color, #6B7280);
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.piq-topic-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.piq-topic-overview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--piq-surface-color, #FFFFFF);
+  border: 1px solid var(--piq-border-color, #DDE3E8);
+  border-radius: var(--piq-card-radius, 12px);
+  padding: var(--piq-card-padding, 28px);
+  min-height: 220px;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: var(--piq-card-shadow, 0 2px 8px rgba(0,0,0,0.06));
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.piq-topic-overview-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.10);
+}
+
+.piq-topic-overview-kicker {
+  font-size: var(--piq-small-font-size, 13px);
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: var(--piq-primary-color, #045D63);
+  margin-bottom: 12px;
+}
+
+.piq-topic-overview-card h2 {
+  font-size: var(--piq-h3-font-size, 24px);
+  line-height: 1.25;
+  margin: 0 0 12px;
+  color: var(--piq-heading-color, var(--piq-text-color, #1F2937));
+}
+
+.piq-topic-overview-card p {
+  font-size: 16px;
+  line-height: var(--piq-line-height, 1.6);
+  color: var(--piq-text-muted-color, #6B7280);
+  margin: 0;
+}
+
+.piq-topic-overview-cta {
+  margin-top: 18px;
+  font-weight: 700;
+  color: var(--piq-primary-color, #045D63);
+}
+
+@media (max-width: 900px) {
+  .piq-topic-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .piq-topic-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .piq-topic-overview-header h1 {
+    font-size: 36px;
+  }
+}
+</style>
+
+<script>
+const PIQ_TOPIC_OVERVIEW_CONFIG = {
+  API_URL: "https://script.google.com/macros/s/AKfycbyeCp9WTR09h2M9GDhkI2EXQw4yqrc_wKunOpDxW8l9WFS6UbYgaFJxXWFOxzjlUeE/exec"
+};
+
+function piqTopicOverviewApplySettings(settings) {
+  if (!settings) return;
+
+  const root = document.documentElement;
+
+  const map = {
+    primary_color: "--piq-primary-color",
+    primary_hover_color: "--piq-primary-hover-color",
+    background_color: "--piq-background-color",
+    surface_color: "--piq-surface-color",
+    text_color: "--piq-text-color",
+    text_muted_color: "--piq-text-muted-color",
+    heading_color: "--piq-heading-color",
+    border_color: "--piq-border-color",
+
+    card_radius: "--piq-card-radius",
+    card_padding: "--piq-card-padding",
+    card_shadow: "--piq-card-shadow",
+
+    font_family: "--piq-font-family",
+    h1_font_size: "--piq-h1-font-size",
+    h3_font_size: "--piq-h3-font-size",
+    body_font_size: "--piq-body-font-size",
+    small_font_size: "--piq-small-font-size",
+    line_height: "--piq-line-height",
+
+    max_content_width: "--piq-max-content-width"
+  };
+
+  Object.keys(map).forEach(key => {
+    if (settings[key] !== undefined && settings[key] !== "") {
+      root.style.setProperty(map[key], settings[key]);
+    }
+  });
+}
+
+function piqTopicOverviewEscapeHtml(value) {
+  return String(value || "")
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#039;");
+}
+
+function renderTopicOverview(data) {
+  piqTopicOverviewApplySettings(data.settings || {});
+
+  const container = document.getElementById("piq-topic-overview");
+
+  const siteContent = data.site_content || {};
+
+  const pages = (data.pages || [])
+    .slice()
+    .sort((a, b) => {
+      const aOrder = Number(a.page?.display_order || 999);
+      const bOrder = Number(b.page?.display_order || 999);
+      return aOrder - bOrder;
+    });
+
+  if (!pages.length) {
+    container.innerHTML = "<p>Aktuell wurden keine Themen gefunden.</p>";
+    return;
+  }
+
+  container.innerHTML = `
+    <div class="piq-topic-overview-header">
+      <h1>Themen und Umfragen</h1>
+      <p>
+        Wähle ein Thema aus und gib deine Meinung zu konkreten politischen Fragen ab.
+        peopleIQ macht politische Stimmungen sichtbar – unabhängig, transparent und themenbasiert.
+      </p>
+    </div>
+
+    <div class="piq-topic-overview-grid">
+      ${pages.map(item => {
+        const page = item.page || {};
+
+        return `
+          <a class="piq-topic-overview-card" href="/${piqTopicOverviewEscapeHtml(item.slug || "")}/">
+            <div class="piq-topic-overview-kicker">Thema</div>
+            <h2>${piqTopicOverviewEscapeHtml(page.display_name || item.topic_id || "")}</h2>
+            <p>${piqTopicOverviewEscapeHtml(page.short_description || "")}</p>
+            <div class="piq-topic-overview-cta">Zur Umfrage →</div>
+          </a>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
+
+fetch(PIQ_TOPIC_OVERVIEW_CONFIG.API_URL)
+  .then(response => {
+    if (!response.ok) throw new Error("HTTP " + response.status);
+    return response.json();
+  })
+  .then(renderTopicOverview)
+  .catch(error => {
+    console.error("PIQ TOPIC OVERVIEW ERROR:", error);
+    document.getElementById("piq-topic-overview").innerHTML =
+      "<p>Die Themen konnten gerade nicht geladen werden.</p>";
+  });
+</script>
