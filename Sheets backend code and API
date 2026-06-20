@@ -7,6 +7,7 @@ function doGet(e) {
 
   const topicContent = getSheetObjects(ss, "topic_content");
   const topicArticles = getSheetObjects(ss, "topic_articles");
+  const topicReferences = getSheetObjects(ss, "topic_references");
   const faqContent = getSheetObjects(ss, "faq_content");
 
   const styleSettings = getSettingsObject(ss, "style_settings");
@@ -22,6 +23,24 @@ function doGet(e) {
       articlesByTopicId[normalizeId(article.topic_id)] = article;
     }
   });
+
+const referencesByTopicId = {};
+topicReferences.forEach(ref => {
+  if (normalize(ref.status) !== "active") return;
+
+  const topicId = normalizeId(ref.topic_id);
+
+  if (!referencesByTopicId[topicId]) {
+    referencesByTopicId[topicId] = [];
+  }
+
+  referencesByTopicId[topicId].push({
+    reference_order: Number(ref.reference_order || 999),
+    source: ref.source || "",
+    title: ref.title || "",
+    url: ref.url || ""
+  });
+});
 
   const faqsByTopicId = {};
   faqContent.forEach(faq => {
@@ -47,17 +66,19 @@ function doGet(e) {
   const pages = activePages
     .map(page => {
       const topicId = normalizeId(page.topic_id);
-      const article = articlesByTopicId[topicId] || {};
-      const faqs = faqsByTopicId[topicId] || [];
+     const article = articlesByTopicId[topicId] || {};
+const faqs = faqsByTopicId[topicId] || [];
+const references = referencesByTopicId[topicId] || [];
 
-      return {
-        topic_id: page.topic_id || "",
-        slug: page.slug || "",
-        status: page.status || "",
-        page: page,
-        article: article,
-        faqs: faqs
-      };
+return {
+  topic_id: page.topic_id || "",
+  slug: page.slug || "",
+  status: page.status || "",
+  page: page,
+  article: article,
+  faqs: faqs,
+  references: references.sort((a, b) => a.reference_order - b.reference_order)
+};
     })
     .filter(item => item.slug);
 
