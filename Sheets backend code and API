@@ -1,0 +1,207 @@
+function doGet(e) {
+  const ss = SpreadsheetApp.getActiveSpreadsheet();
+
+  const callback = e && e.parameter && e.parameter.callback
+    ? e.parameter.callback
+    : null;
+
+  const topicContent = getSheetObjects(ss, "topic_content");
+  const topicArticles = getSheetObjects(ss, "topic_articles");
+  const faqContent = getSheetObjects(ss, "faq_content");
+
+  const styleSettings = getSettingsObject(ss, "style_settings");
+  const siteContent = getSettingsObject(ss, "site_content");
+
+  const activePages = topicContent.filter(row =>
+    normalize(row.status) === "active"
+  );
+
+  const articlesByTopicId = {};
+  topicArticles.forEach(article => {
+    if (article.topic_id && normalize(article.status) === "active") {
+      articlesByTopicId[normalizeId(article.topic_id)] = article;
+    }
+  });
+
+  const faqsByTopicId = {};
+  faqContent.forEach(faq => {
+    if (normalize(faq.status) !== "active") return;
+
+    const topicId = normalizeId(faq.topic_id);
+
+    if (!faqsByTopicId[topicId]) {
+      faqsByTopicId[topicId] = [];
+    }
+
+    faqsByTopicId[topicId].push({
+      faq_order: Number(faq.faq_order || 999),
+      question: faq.question || "",
+      answer: faq.answer || ""
+    });
+  });
+
+  Object.keys(faqsByTopicId).forEach(topicId => {
+    faqsByTopicId[topicId].sort((a, b) => a.faq_order - b.faq_order);
+  });
+
+  const pages = activePages
+    .map(page => {
+      const topicId = normalizeId(page.topic_id);
+      const article = articlesByTopicId[topicId] || {};
+      const faqs = faqsByTopicId[topicId] || [];
+
+      return {
+        topic_id: page.topic_id || "",
+        slug: page.slug || "",
+        status: page.status || "",
+        page: page,
+        article: article,
+        faqs: faqs
+      };
+    })
+    .filter(item => item.slug);
+
+  const pagesByTopicId = {};
+  pages.forEach(item => {
+    pagesByTopicId[normalizeId(item.topic_id)] = item;
+  });
+
+  pages.forEach(item => {
+    item.related_topics = getRelatedTopics(item.page, pagesByTopicId);
+  });
+
+  const requestedSlug = e && e.parameter && e.parameter.slug
+    ? normalize(e.parameter.slug)
+    : null;
+
+  if (requestedSlug) {
+    const result = pages.find(item =>
+      normalize(item.slug) === requestedSlug
+    );
+
+    if (!result) {
+      return jsonOutput({
+        found: false,
+        error: "Page not found",
+        requested_slug: requestedSlug,
+        settings: styleSettings,
+        site_content: siteContent
+      }, callback);
+    }
+
+    return jsonOutput({
+      found: true,
+      settings: styleSettings,
+      site_content: siteContent,
+      page: result
+    }, callback);
+  }
+
+  return jsonOutput({
+    export_date: new Date().toISOString(),
+    settings: styleSettings,
+    site_content: siteContent,
+    page_count: pages.length,
+    pages: pages
+  }, callback);
+}
+
+function getRelatedTopics(page, pagesByTopicId) {
+  return [
+    page.related_topic_1,
+    page.related_topic_2,
+    page.related_topic_3
+  ]
+    .filter(Boolean)
+    .map(topicId => {
+      const match = pagesByTopicId[normalizeId(topicId)];
+
+      if (!match) return null;
+
+      return {
+        topic_id: match.topic_id || "",
+        slug: match.slug || "",
+        display_name: match.page.display_name || match.topic_id || "",
+        short_description: match.page.short_description || ""
+      };
+    })
+    .filter(Boolean);
+}
+
+function getSheetObjects(ss, sheetName) {
+  const sheet = ss.getSheetByName(sheetName);
+
+  if (!sheet) {
+    throw new Error("Sheet not found: " + sheetName);
+  }
+
+  const data = sheet.getDataRange().getValues();
+
+  if (data.length < 2) {
+    return [];
+  }
+
+  const headers = data[0].map(header =>
+    String(header).trim()
+  );
+
+  return data.slice(1)
+    .filter(row => row.some(cell => cell !== ""))
+    .map(row => {
+      const obj = {};
+
+      headers.forEach((header, index) => {
+        obj[header] = row[index];
+      });
+
+      return obj;
+    });
+}
+
+function getSettingsObject(ss, sheetName) {
+  const sheet = ss.getSheetByName(sheetName);
+
+  if (!sheet) {
+    return {};
+  }
+
+  const data = sheet.getDataRange().getValues();
+  const settings = {};
+
+  data.slice(1).forEach(row => {
+    const key = String(row[0] || "").trim();
+    const value = row[1];
+
+    if (key) {
+      settings[key] = value;
+    }
+  });
+
+  return settings;
+}
+
+function normalize(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase();
+}
+
+function normalizeId(value) {
+  return String(value || "")
+    .trim()
+    .toUpperCase();
+}
+
+function jsonOutput(data, callback) {
+  const json = JSON.stringify(data, null, 2);
+
+  if (callback) {
+    return ContentService
+      .createTextOutput(callback + "(" + json + ");")
+      .setMimeType(ContentService.MimeType.JAVASCRIPT);
+  }
+
+  return ContentService
+    .createTextOutput(json)
+    .setMimeType(ContentService.MimeType.JSON);
+}
