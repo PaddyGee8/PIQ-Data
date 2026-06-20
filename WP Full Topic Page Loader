@@ -240,6 +240,42 @@
   font-weight: 700;
 }
 
+/* ---------- references ---------- */
+
+.piq-references {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--piq-border-color, #DDE3E8);
+  font-size: 14px;
+  color: var(--piq-text-muted-color, #6B7280);
+}
+
+.piq-references h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 0 12px;
+  color: var(--piq-text-muted-color, #6B7280);
+}
+
+.piq-references ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.piq-references li {
+  margin: 6px 0;
+}
+
+.piq-references a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.piq-references a:hover {
+  text-decoration: underline;
+}
+
 
 /* ---------- FAQ ---------- */
 .piq-faq-card {
@@ -416,6 +452,7 @@ function renderPage(data) {
   const siteContent = data.site_content || {};
   const relatedTopics = data.page.related_topics || [];
   const faqs = data.page.faqs || [];
+  const references = data.page.references || [];
 
   piqCurrentTopic = topic;
 
@@ -427,6 +464,7 @@ function renderPage(data) {
     ${renderSurveyShell(topic)}
     ${renderRelatedSection(relatedTopics)}
     ${renderArticle(article)}
+    ${renderReferences(references)}
     ${renderAboutPeopleIQ(siteContent)}
     ${renderFaqs(faqs)}
   `;
@@ -538,6 +576,28 @@ function renderArticle(article) {
     </section>
   `;
 }
+
+
+function renderReferences(references) {
+  if (!references || !references.length) return "";
+
+  return `
+    <div class="piq-references">
+      <h3>Quellen und weiterführende Informationen</h3>
+
+      <ul>
+        ${references.map(ref => `
+          <li>
+            <a href="${escapeHtml(ref.url || "")}" target="_blank" rel="noopener">
+              ${escapeHtml(ref.source || "")} · ${escapeHtml(ref.title || "")} ↗
+            </a>
+          </li>
+        `).join("")}
+      </ul>
+    </div>
+  `;
+}
+
 
 /* =========================================================
    MODULE: Why PeopleIQ
