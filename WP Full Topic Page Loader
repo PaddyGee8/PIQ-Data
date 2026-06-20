@@ -245,9 +245,16 @@
 .piq-references {
   margin-top: 48px;
   padding-top: 24px;
+  padding-bottom: 24px;
+
   border-top: 1px solid var(--piq-border-color, #DDE3E8);
+  border-bottom: 1px solid var(--piq-border-color, #DDE3E8);
+
   font-size: 14px;
   color: var(--piq-text-muted-color, #6B7280);
+
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .piq-references h3 {
@@ -463,8 +470,7 @@ function renderPage(data) {
     ${renderIntro(topic)}
     ${renderSurveyShell(topic)}
     ${renderRelatedSection(relatedTopics)}
-    ${renderArticle(article)}
-    ${renderReferences(references)}
+    ${renderArticle(article, references)}
     ${renderAboutPeopleIQ(siteContent)}
     ${renderFaqs(faqs)}
   `;
@@ -568,11 +574,12 @@ function renderRelatedCards(relatedTopics) {
    Width controlled by article_width in style_settings.
    ========================================================= */
 
-function renderArticle(article) {
+function renderArticle(article, references) {
   return `
     <section id="piq-long-content" class="piq-section piq-article">
       <h2>${escapeHtml(article.long_content_headline || "Mehr Informationen zum Thema")}</h2>
       ${formatText(article.article_body)}
+      ${renderReferences(references)}
     </section>
   `;
 }
