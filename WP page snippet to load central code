@@ -1,0 +1,9 @@
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/PaddyGee8/PIQ-Data@main/central-topic-loader.css">
+
+<div id="piq-topic-page" data-slug="innere-sicherheit">
+  <p>peopleIQ lädt...</p>
+</div>
+
+<script defer
+        src="https://cdn.jsdelivr.net/gh/PaddyGee8/PIQ-Data@main/central-topic-loader.js"></script>
