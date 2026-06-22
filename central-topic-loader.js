@@ -567,4 +567,3 @@ fetch(`${PIQ_CONFIG.CONTENT_API_URL}?slug=${encodeURIComponent(PIQ_CONFIG.SLUG)}
         </div>
       </div>`;
   });
-</script>
