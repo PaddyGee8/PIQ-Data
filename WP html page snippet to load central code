@@ -1,0 +1,16 @@
+<link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/PaddyGee8/PIQ-Data@main/central-topic-CSS-loader.css?v=1">
+
+<div id="piq-topic-page" data-slug="innere-sicherheit">
+  <section class="piq-loading-hero">
+    <div class="piq-loading-content">
+      <div class="piq-skeleton small"></div>
+      <div class="piq-skeleton title"></div>
+      <div class="piq-skeleton text"></div>
+      <div class="piq-skeleton button"></div>
+    </div>
+  </section>
+</div>
+
+<script defer
+        src="https://cdn.jsdelivr.net/gh/PaddyGee8/PIQ-Data@main/central-topic-JS-loader.js?v=1"></script>
