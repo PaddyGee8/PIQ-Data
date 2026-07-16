@@ -1,0 +1,2240 @@
+{
+  "metadata": {
+    "repository_version": "1.1.0",
+    "repository_owner": "Pat",
+    "repository_governance_version": "1.2",
+    "topic_catalog_version": "1.0",
+    "question_area_catalog_version": "1.0",
+    "schema_version": "1.0",
+    "last_updated": "2026-06-08",
+    "quality_status": "APPROVED_FOR_FOUNDATION_LAUNCH",
+    "total_active_questions": 108,
+    "total_archived_questions": 0,
+    "total_topics": 15,
+    "release_status": "RELEASED",
+    "release_date": "2026-06-08",
+    "approval_record": {
+      "approved_by": "Pat",
+      "approval_date": "2026-06-08",
+      "approval_scope": "Workflow E Repository Release",
+      "orchestrator_authorization": true
+    }
+  },
+  "topics": [
+    {
+      "topic_id": "ECONOMY_FINANCE",
+      "display_name": "Wirtschaft & Finanzen",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "display_name": "Wohnen & Immobilien",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "WORK_LABOR_MARKET",
+      "display_name": "Arbeit & Arbeitsmarkt",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "HEALTH_CARE",
+      "display_name": "Gesundheit & Pflege",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "EDUCATION_RESEARCH",
+      "display_name": "Bildung & Forschung",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "display_name": "Familie & Sozialpolitik",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "MIGRATION_INTEGRATION",
+      "display_name": "Migration & Integration",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "SECURITY_JUSTICE",
+      "display_name": "Sicherheit & Justiz",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "display_name": "Klima & Umwelt",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "ENERGY",
+      "display_name": "Energie",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "MOBILITY_TRANSPORT",
+      "display_name": "Verkehr & Mobilität",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "display_name": "Digitalisierung & Technologie",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "display_name": "Demokratie & Staatsmodernisierung",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "display_name": "Europa & Außenpolitik",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    },
+    {
+      "topic_id": "DEFENSE_RESILIENCE",
+      "display_name": "Verteidigung & Resilienz",
+      "status": "active",
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "ECONOMY_FINANCE_001",
+      "question_text": "Zur Bekämpfung der Inflation sollte die Politik auch dann restriktive Maßnahmen ergreifen, wenn dadurch das Wirtschaftswachstum kurzfristig gebremst wird.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "INFLATION",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_002",
+      "question_text": "Der Staat sollte Verbraucher stärker vor steigenden Preisen schützen, auch wenn dadurch zusätzliche Eingriffe in den Markt erforderlich werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "CONSUMER_PRICES",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_003",
+      "question_text": "Die Steuerbelastung für Erwerbstätige sollte gesenkt werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "TAXATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_004",
+      "question_text": "Die Förderung des Wirtschaftswachstums sollte Vorrang vor zusätzlichen Regulierungen haben.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "ECONOMIC_GROWTH",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_005",
+      "question_text": "Die finanzielle Absicherung privater Haushalte sollte stärker unterstützt werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "FINANCIAL_SECURITY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_006",
+      "question_text": "Staatliche Ausgaben sollten regelmäßig auf ihre Wirksamkeit überprüft werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "PUBLIC_SPENDING",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_007",
+      "question_text": "Kleine und mittlere Unternehmen sollten stärker entlastet werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "SMALL_BUSINESSES",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ECONOMY_FINANCE_008",
+      "question_text": "Die internationale Wettbewerbsfähigkeit Deutschlands sollte gezielt gestärkt werden.",
+      "topic_id": "ECONOMY_FINANCE",
+      "question_area_id": "COMPETITIVENESS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_001",
+      "question_text": "Der Staat sollte stärker in den Mietmarkt eingreifen, um Mietsteigerungen zu begrenzen.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "RENT_PRICES",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_002",
+      "question_text": "Die Schaffung von bezahlbarem Wohnraum sollte Vorrang vor anderen wohnungspolitischen Zielen haben.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "HOUSING_AFFORDABILITY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_003",
+      "question_text": "Der Neubau von Wohnungen sollte stärker gefördert werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "NEW_CONSTRUCTION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_004",
+      "question_text": "Der soziale Wohnungsbau sollte ausgebaut werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "SOCIAL_HOUSING",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_005",
+      "question_text": "Der Erwerb von Wohneigentum sollte stärker unterstützt werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "PROPERTY_OWNERSHIP",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_006",
+      "question_text": "Erstkäufer von Wohneigentum sollten gezielt gefördert werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "FIRST_TIME_BUYERS",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_007",
+      "question_text": "Wohnungsbauregeln sollten vereinfacht werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "HOUSING_REGULATION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HOUSING_REAL_ESTATE_008",
+      "question_text": "Städte sollten langfristig auf zusätzliches Bevölkerungswachstum vorbereitet werden.",
+      "topic_id": "HOUSING_REAL_ESTATE",
+      "question_area_id": "URBAN_DEVELOPMENT",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_001",
+      "question_text": "Zur Sicherung hoher Beschäftigung sollte der Staat aktiv in den Arbeitsmarkt eingreifen.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "EMPLOYMENT",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_002",
+      "question_text": "Löhne sollten mit den Lebenshaltungskosten Schritt halten.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "WAGES",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_003",
+      "question_text": "Die Bekämpfung des Fachkräftemangels sollte Vorrang vor anderen arbeitsmarktpolitischen Zielen haben.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "SKILLED_LABOR_SHORTAGE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_004",
+      "question_text": "Arbeitgeber sollten Homeoffice ermöglichen, wenn die Tätigkeit dafür geeignet ist.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "REMOTE_WORK",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_005",
+      "question_text": "Das Renteneintrittsalter sollte an die steigende Lebenserwartung angepasst werden.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "RETIREMENT_AGE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_006",
+      "question_text": "Berufliche Aus- und Weiterbildung sollte stärker gefördert werden.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "VOCATIONAL_TRAINING",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_007",
+      "question_text": "Automatisierung sollte genutzt werden, um Produktivität zu steigern.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "WORKPLACE_AUTOMATION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "WORK_LABOR_MARKET_008",
+      "question_text": "Deutschland sollte qualifizierte Arbeitsmigration gezielt fördern, um den Fachkräftebedarf zu decken.",
+      "topic_id": "WORK_LABOR_MARKET",
+      "question_area_id": "LABOR_MIGRATION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_001",
+      "question_text": "Der Staat sollte zusätzliche Mittel einsetzen, um den Zugang zur medizinischen Versorgung zu verbessern.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "HEALTHCARE_ACCESS",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_002",
+      "question_text": "Die hausärztliche Versorgung sollte gestärkt werden.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "PRIMARY_CARE",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_003",
+      "question_text": "Der Ausbau der Pflegeversorgung sollte höhere öffentliche Ausgaben rechtfertigen.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "LONG_TERM_CARE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_004",
+      "question_text": "Psychische Gesundheit sollte stärker berücksichtigt werden.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "MENTAL_HEALTH",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_005",
+      "question_text": "Die langfristige Finanzierung des Gesundheitssystems sollte gesichert werden.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "HEALTHCARE_FINANCING",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_006",
+      "question_text": "Digitale Gesundheitsangebote sollten stärker genutzt werden.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "DIGITAL_HEALTH",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_007",
+      "question_text": "Der Staat sollte mehr Mittel für Gesundheitsprävention bereitstellen.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "PREVENTION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "HEALTH_CARE_008",
+      "question_text": "Der Erhalt wohnortnaher Krankenhäuser sollte auch dann Priorität haben, wenn dies höhere Kosten verursacht.",
+      "topic_id": "HEALTH_CARE",
+      "question_area_id": "HOSPITALS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_001",
+      "question_text": "Digitale Kompetenzen sollten stärker Bestandteil der Bildung sein.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "DIGITAL_EDUCATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_002",
+      "question_text": "Der Staat sollte zusätzliche Maßnahmen ergreifen, um Unterschiede der Bildungschancen aufgrund sozialer Herkunft zu verringern.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "EDUCATIONAL_EQUALITY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_003",
+      "question_text": "Berufliche Bildung sollte den gleichen gesellschaftlichen Stellenwert wie akademische Bildung erhalten.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "VOCATIONAL_EDUCATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_004",
+      "question_text": "Hochschulen sollten ausreichend finanziert werden, um ihre Aufgaben erfüllen zu können.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "HIGHER_EDUCATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_005",
+      "question_text": "Der Staat sollte Angebote für lebenslanges Lernen stärker fördern.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "LIFELONG_LEARNING",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EDUCATION_RESEARCH_006",
+      "question_text": "Forschung und Innovation sollten stärker gefördert werden.",
+      "topic_id": "EDUCATION_RESEARCH",
+      "question_area_id": "RESEARCH_FUNDING",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_001",
+      "question_text": "Der Staat sollte höhere Ausgaben für Familienleistungen akzeptieren, auch wenn dies zusätzliche öffentliche Mittel erfordert.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "CHILDCARE",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_002",
+      "question_text": "Der Ausbau staatlich geförderter Kinderbetreuung sollte Vorrang vor zusätzlichen direkten Geldleistungen für Familien haben.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "SOCIAL_SECURITY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_003",
+      "question_text": "Die Dauer staatlich finanzierter Elternzeit sollte verlängert werden, auch wenn dadurch die öffentlichen Ausgaben steigen.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "PENSION_SYSTEM",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_004",
+      "question_text": "Der Staat sollte mehr Mittel für Armutsprävention bereitstellen, auch wenn dies höhere Sozialausgaben erfordert.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "POVERTY_PREVENTION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_005",
+      "question_text": "Bei begrenzten Haushaltsmitteln sollten zusätzliche Sozialleistungen Vorrang vor Steuersenkungen haben.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "COST_OF_LIVING",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "FAMILY_SOCIAL_POLICY_006",
+      "question_text": "Politische Entscheidungen sollten die Interessen zukünftiger Generationen stärker berücksichtigen.",
+      "topic_id": "FAMILY_SOCIAL_POLICY",
+      "question_area_id": "GENERATIONAL_FAIRNESS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_001",
+      "question_text": "Deutschland sollte eine langfristig planbare Einwanderungspolitik verfolgen.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "IMMIGRATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_002",
+      "question_text": "Menschen ohne dauerhaftes Aufenthaltsrecht sollten denselben Zugang zu staatlichen Integrationsangeboten erhalten wie Menschen mit dauerhaftem Aufenthaltsrecht.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "ASYLUM_POLICY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_003",
+      "question_text": "Die Integration von Zugewanderten sollte stärker unterstützt werden.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "INTEGRATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_004",
+      "question_text": "Zugewanderte sollten schneller in den Arbeitsmarkt integriert werden.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "LABOR_MARKET_INTEGRATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_005",
+      "question_text": "Deutschland sollte gezielt qualifizierte Fachkräfte aus dem Ausland gewinnen.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "SKILLED_IMMIGRATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_006",
+      "question_text": "Der Staat sollte verpflichtende Sprachkurse für bestimmte Gruppen von neu Zugewanderten einführen.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "LANGUAGE_EDUCATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_007",
+      "question_text": "Die Kontrolle der Außengrenzen sollte wirksam gewährleistet werden.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "BORDER_CONTROL",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MIGRATION_INTEGRATION_008",
+      "question_text": "Der gesellschaftliche Zusammenhalt sollte bei migrationspolitischen Entscheidungen berücksichtigt werden.",
+      "topic_id": "MIGRATION_INTEGRATION",
+      "question_area_id": "CULTURAL_COHESION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_001",
+      "question_text": "Zur Kriminalitätsbekämpfung sollten zusätzliche Mittel vorrangig in die Polizei statt in soziale Präventionsprogramme investiert werden.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "POLICING",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_002",
+      "question_text": "Zur Verhinderung von Straftaten sollte der Staat Befugnisse der Sicherheitsbehörden erweitern, auch wenn dadurch individuelle Freiheiten eingeschränkt werden können.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "CRIME_PREVENTION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_003",
+      "question_text": "Der Staat sollte mehr öffentliche Mittel für die Bekämpfung von Cyberkriminalität bereitstellen, auch wenn andere Sicherheitsbereiche dadurch weniger Mittel erhalten.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "CYBERCRIME",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_004",
+      "question_text": "Extremismus sollte unabhängig von seiner politischen oder religiösen Ausrichtung bekämpft werden.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "EXTREMISM",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_005",
+      "question_text": "Zur Bekämpfung extremistischer Netzwerke sollten Sicherheitsbehörden spezielle Überwachungsbefugnisse erhalten.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "EMERGENCY_RESPONSE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "SECURITY_JUSTICE_006",
+      "question_text": "Zusätzliche Mittel im Sicherheitsbereich sollten vorrangig für den Schutz von Kriminalitätsopfern statt für die Ausweitung präventiver Maßnahmen eingesetzt werden.",
+      "topic_id": "SECURITY_JUSTICE",
+      "question_area_id": "VICTIM_PROTECTION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_001",
+      "question_text": "Der Klimawandel sollte eine hohe politische Priorität haben.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "CLIMATE_CHANGE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_002",
+      "question_text": "Deutschland sollte seine Treibhausgasemissionen weiter reduzieren.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "EMISSIONS_REDUCTION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_003",
+      "question_text": "Deutschland sollte stärker in Maßnahmen zur Anpassung an Klimafolgen investieren.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "CLIMATE_ADAPTATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_004",
+      "question_text": "Strengere Vorgaben zur Luftreinhaltung sind gerechtfertigt, auch wenn dadurch zusätzliche Kosten für Unternehmen entstehen.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "BIODIVERSITY",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_005",
+      "question_text": "Der Staat sollte strengere Regeln zum Schutz von Gewässern einführen, auch wenn dies höhere Kosten für Verbraucher oder Unternehmen verursacht.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "AIR_QUALITY",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_006",
+      "question_text": "Der Staat sollte verbindliche Vorgaben zur Abfallvermeidung und Wiederverwertung einführen, auch wenn dies zusätzliche Pflichten für Bürger und Unternehmen bedeutet.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "WATER_PROTECTION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "CLIMATE_ENVIRONMENT_007",
+      "question_text": "Umweltregeln sollten wirksam und gleichzeitig praktikabel ausgestaltet sein.",
+      "topic_id": "CLIMATE_ENVIRONMENT",
+      "question_area_id": "ENVIRONMENTAL_REGULATION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "ENERGY_001",
+      "question_text": "Bei Zielkonflikten sollte die Senkung der Energiepreise Vorrang vor zusätzlichen Investitionen in die Energiewende haben.",
+      "topic_id": "ENERGY",
+      "question_area_id": "ENERGY_PRICES",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ENERGY_002",
+      "question_text": "Für eine höhere Versorgungssicherheit sollte Deutschland auch weniger klimafreundliche Energiequellen nutzen können.",
+      "topic_id": "ENERGY",
+      "question_area_id": "ENERGY_SECURITY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ENERGY_003",
+      "question_text": "Der Ausbau erneuerbarer Energien sollte fortgesetzt werden.",
+      "topic_id": "ENERGY",
+      "question_area_id": "RENEWABLE_ENERGY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "ENERGY_004",
+      "question_text": "Die Energiewende sollte planbar und wirtschaftlich tragfähig umgesetzt werden.",
+      "topic_id": "ENERGY",
+      "question_area_id": "ENERGY_TRANSITION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "ENERGY_005",
+      "question_text": "Der Ausbau der Stromnetze sollte beschleunigt werden, auch wenn dies zu höheren Netzentgelten für Verbraucher führt.",
+      "topic_id": "ENERGY",
+      "question_area_id": "GRID_INFRASTRUCTURE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "ENERGY_006",
+      "question_text": "Die Entwicklung von Energiespeichern sollte stärker gefördert werden.",
+      "topic_id": "ENERGY",
+      "question_area_id": "ENERGY_STORAGE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "ENERGY_007",
+      "question_text": "Die Energieeffizienz von Gebäuden und Unternehmen sollte verbessert werden.",
+      "topic_id": "ENERGY",
+      "question_area_id": "ENERGY_EFFICIENCY",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "ENERGY_008",
+      "question_text": "Private Haushalte sollten beim Energiesparen stärker unterstützt werden.",
+      "topic_id": "ENERGY",
+      "question_area_id": "HOUSEHOLD_ENERGY_USE",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-07",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_001",
+      "question_text": "Der Staat sollte zusätzliche Mittel vorrangig für den Ausbau des öffentlichen Nahverkehrs statt für die Senkung von Mobilitätskosten einsetzen.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "PUBLIC_TRANSPORT",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_002",
+      "question_text": "Zusätzliche Investitionen in die Straßeninfrastruktur sollten Vorrang vor weiteren Investitionen in den öffentlichen Nahverkehr haben.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "ROAD_INFRASTRUCTURE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_003",
+      "question_text": "Der Ausbau des Schienenverkehrs sollte Vorrang vor dem Ausbau des Straßennetzes haben.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "RAIL_TRANSPORT",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_004",
+      "question_text": "Elektromobilität sollte stärker staatlich gefördert werden als Fahrzeuge mit Verbrennungsmotor.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "ELECTRIC_VEHICLES",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_005",
+      "question_text": "Städte sollten Straßenraum zugunsten alternativer Mobilitätsformen umverteilen können.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "URBAN_MOBILITY",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_006",
+      "question_text": "Der Ausbau der Radverkehrsinfrastruktur sollte Vorrang vor zusätzlichen Investitionen in den Autoverkehr haben.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "CYCLING",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "MOBILITY_TRANSPORT_007",
+      "question_text": "Der Staat sollte Mobilitätskosten stärker begrenzen, auch wenn dadurch zusätzliche öffentliche Ausgaben entstehen.",
+      "topic_id": "MOBILITY_TRANSPORT",
+      "question_area_id": "TRANSPORT_COSTS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_001",
+      "question_text": "Der Einsatz von Künstlicher Intelligenz sollte auch dann ausgeweitet werden, wenn dadurch neue regulatorische Risiken entstehen.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "ARTIFICIAL_INTELLIGENCE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_002",
+      "question_text": "Zur Verbesserung der Cybersicherheit sollten Unternehmen zusätzliche gesetzliche Sicherheitsanforderungen erfüllen müssen.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "CYBERSECURITY",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_003",
+      "question_text": "Der Schutz persönlicher Daten sollte Vorrang vor der Nutzung von Daten für technologische Innovation haben.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "DATA_PRIVACY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_004",
+      "question_text": "Behördliche Dienstleistungen sollten verpflichtend digital angeboten werden, auch wenn dadurch höhere Umstellungskosten entstehen.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "DIGITAL_GOVERNMENT",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_005",
+      "question_text": "Der Staat sollte den Ausbau digitaler Infrastruktur beschleunigen, auch wenn hierfür höhere öffentliche Investitionen erforderlich sind.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "DIGITAL_INFRASTRUCTURE",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_006",
+      "question_text": "Deutschland und Europa sollten bei digitalen Schlüsseltechnologien stärkere Eigenständigkeit anstreben, auch wenn dies höhere Kosten verursacht.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "DIGITAL_SOVEREIGNTY",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_007",
+      "question_text": "Unternehmen sollten Automatisierung stärker nutzen können, auch wenn dadurch bestimmte Arbeitsplätze wegfallen können.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "AUTOMATION",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DIGITALIZATION_TECHNOLOGY_008",
+      "question_text": "Der Staat sollte technologische Innovation gezielt fördern, auch wenn dadurch andere Förderbereiche weniger Mittel erhalten.",
+      "topic_id": "DIGITALIZATION_TECHNOLOGY",
+      "question_area_id": "TECHNOLOGY_INNOVATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_001",
+      "question_text": "Politische Entscheidungen sollten stärker auf Expertenempfehlungen als auf direkte Bürgerbeteiligung gestützt werden.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "TRUST_IN_INSTITUTIONS",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_002",
+      "question_text": "Bürgerinnen und Bürger sollten häufiger direkt über politische Sachfragen abstimmen können.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "DEMOCRATIC_PARTICIPATION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_003",
+      "question_text": "Für mehr Transparenz sollten staatliche Entscheidungsprozesse umfangreicher veröffentlicht werden, auch wenn dies Verwaltungsaufwand verursacht.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "TRANSPARENCY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_004",
+      "question_text": "Die Vereinfachung von Verwaltungsverfahren sollte Vorrang vor zusätzlichen Kontroll- und Dokumentationspflichten haben.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "GOVERNMENT_EFFICIENCY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_005",
+      "question_text": "Der Staat sollte stärker in Medienkompetenz investieren, auch wenn dadurch andere Bildungsbereiche weniger Mittel erhalten.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "MEDIA_LITERACY",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_006",
+      "question_text": "Politische Amtsträger sollten umfangreichere Offenlegungspflichten erfüllen müssen, auch wenn dies ihre Privatsphäre stärker einschränkt.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "ANTI_CORRUPTION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEMOCRACY_GOVERNANCE_007",
+      "question_text": "Der Staat sollte zusätzliche Mittel für die Förderung bürgerschaftlichen Engagements bereitstellen, auch wenn dadurch andere Förderprogramme weniger Mittel erhalten.",
+      "topic_id": "DEMOCRACY_GOVERNANCE",
+      "question_area_id": "CIVIC_ENGAGEMENT",
+      "status": "active",
+      "importance_score": 7,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_001",
+      "question_text": "Mehr politische Entscheidungen sollten auf Ebene der Europäischen Union statt auf nationaler Ebene getroffen werden.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "EUROPEAN_UNION",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_002",
+      "question_text": "Deutschland sollte bei außenpolitischen Entscheidungen stärker nationale Interessen als internationale Abstimmung berücksichtigen.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "FOREIGN_RELATIONS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_003",
+      "question_text": "Offene Handelsabkommen sollten Vorrang vor dem Schutz einzelner nationaler Wirtschaftsbereiche haben.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "INTERNATIONAL_TRADE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_004",
+      "question_text": "Deutschland sollte in internationalen Konflikten diplomatische Lösungen auch dann bevorzugen, wenn diese mehr Zeit in Anspruch nehmen.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "DIPLOMACY",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_005",
+      "question_text": "Globale Herausforderungen sollten überwiegend durch internationale Zusammenarbeit und nicht durch nationale Alleingänge angegangen werden.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "INTERNATIONAL_COOPERATION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "EUROPE_FOREIGN_POLICY_006",
+      "question_text": "Europa sollte wirtschaftliche Unabhängigkeit höher priorisieren als möglichst günstige internationale Lieferketten.",
+      "topic_id": "EUROPE_FOREIGN_POLICY",
+      "question_area_id": "GLOBAL_COMPETITIVENESS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_001",
+      "question_text": "Deutschland sollte seine Verteidigungsausgaben erhöhen, auch wenn dadurch andere staatliche Ausgabenbereiche weniger Mittel erhalten.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "NATIONAL_DEFENSE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_002",
+      "question_text": "Deutschland sollte seine Sicherheit weiterhin vorrangig durch die Zusammenarbeit innerhalb der NATO gewährleisten statt stärker auf eigenständige Verteidigungsfähigkeiten zu setzen.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "NATO",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_003",
+      "question_text": "Zum Schutz kritischer Infrastruktur sollten zusätzliche staatliche Eingriffsbefugnisse geschaffen werden.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "CRITICAL_INFRASTRUCTURE",
+      "status": "active",
+      "importance_score": 10,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_004",
+      "question_text": "Der Staat sollte zusätzliche Mittel für Cyberverteidigung bereitstellen, auch wenn andere Sicherheitsbereiche dadurch weniger Mittel erhalten.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "CYBER_DEFENSE",
+      "status": "active",
+      "importance_score": 9,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_005",
+      "question_text": "Deutschland sollte bei wichtigen Gütern größere nationale Reserven aufbauen, auch wenn dadurch höhere Kosten entstehen.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "SUPPLY_CHAIN_RESILIENCE",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_006",
+      "question_text": "Der Staat sollte mehr Mittel für Katastrophenvorsorge bereitstellen, auch wenn dies zusätzliche öffentliche Ausgaben erfordert.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "DISASTER_PREPAREDNESS",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    },
+    {
+      "question_id": "DEFENSE_RESILIENCE_007",
+      "question_text": "Der Bevölkerungsschutz sollte Vorrang vor anderen Bereichen der inneren Sicherheit erhalten, wenn zusätzliche Mittel verteilt werden.",
+      "topic_id": "DEFENSE_RESILIENCE",
+      "question_area_id": "CIVIL_PROTECTION",
+      "status": "active",
+      "importance_score": 8,
+      "answer_type": "STANDARD_AGREEMENT_SCALE",
+      "allow_comment": true,
+      "created_date": "2026-06-06",
+      "last_updated": "2026-06-08",
+      "created_by": "peopleIQ Survey Agent",
+      "source": "FOUNDATION_STAGE_BASELINE_BUILD",
+      "tags": [
+        "baseline",
+        "core",
+        "quality_reviewed"
+      ]
+    }
+  ],
+  "archived_questions": [],
+  "change_log": [
+    {
+      "date": "2026-06-06",
+      "agent": "System",
+      "action": "INITIALIZE_REPOSITORY",
+      "repository_version": "1.0"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "peopleIQ Survey Agent",
+      "action": "APPLY_APPROVED_PATCH",
+      "patch_id": "PATCH_A_FINAL",
+      "quality_status": "PASS_WITH_WARNINGS",
+      "questions_created": 38
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "peopleIQ Survey Agent",
+      "action": "APPLY_APPROVED_PATCH",
+      "patch_id": "PATCH_B_REVISED_V2",
+      "quality_status": "PASS_WITH_WARNINGS",
+      "questions_created": 35
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "peopleIQ Survey Agent",
+      "action": "APPLY_APPROVED_PATCH",
+      "patch_id": "PATCH_C_FINAL",
+      "quality_status": "PASS",
+      "questions_created": 35
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "Pat Approval",
+      "action": "MERGE_PATCHES",
+      "patches": [
+        "PATCH_A_FINAL",
+        "PATCH_B_REVISED_V2",
+        "PATCH_C_FINAL"
+      ],
+      "repository_version_old": "1.0",
+      "repository_version_new": "1.1_FINAL",
+      "questions_created_total": 108,
+      "approval_status": "APPROVED_FOR_FOUNDATION_LAUNCH"
+    },
+    {
+      "date": "2026-06-08",
+      "agent": "PIQ Orchestrator Agent",
+      "action": "RELEASE_REPOSITORY",
+      "version": "1.1.0",
+      "description": "Released approved foundation repository after Pat approval and Orchestrator validation.",
+      "repository_version_old": "1.1_FINAL",
+      "repository_version_new": "1.1.0",
+      "release_status": "RELEASED",
+      "approved_by": "Pat"
+    }
+  ],
+  "release_notes": [
+    {
+      "version": "1.1.0",
+      "release_date": "2026-06-08",
+      "changes": [
+        "Normalized repository version from 1.1_FINAL to 1.1.0.",
+        "Released foundation repository for production-ready use."
+      ],
+      "topics_added": 15,
+      "question_areas_added": 0,
+      "questions_added": 108,
+      "questions_archived": 0,
+      "governance_changes": []
+    }
+  ]
+}
